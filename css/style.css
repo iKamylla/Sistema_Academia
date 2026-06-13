@@ -1,0 +1,40 @@
+/* Customização de Cores - Boost Academia */
+body {
+    background-color: #0b0f19 !important;
+    color: #f8f9fa !important;
+}
+
+.text-boost {
+    color: #00d2ff !important;
+}
+
+.navbar {
+    background-color: #060913 !important;
+    border-bottom: 1px solid #1e293b;
+}
+
+.bg-boost-dark {
+    background-color: #0f172a !important;
+    border: 1px solid #1e293b;
+}
+
+.card-boost {
+    background-color: #0f172a !important;
+    border: 1px solid #1e293b;
+}
+
+.card-boost .card-title {
+    color: #ffffff !important;
+}
+
+.btn-boost {
+    background-color: #0052cc;
+    color: #ffffff;
+    border: none;
+    font-weight: 500;
+}
+
+.btn-boost:hover {
+    background-color: #00d2ff;
+    color: #0b0f19;
+}
