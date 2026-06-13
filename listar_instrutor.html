@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boost Academia - Listagem de Instrutores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold text-boost" href="index.html">⚡ Boost Academia</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cadastrar_aluno.html">Cadastrar Aluno</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listar_aluno.html">Listagem de Alunos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cadastrar_instrutor.html">Cadastrar Instrutor</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="listar_instrutor.html">Listagem de Instrutores</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main class="container mt-4">
+        <div class="bg-boost-dark p-4 rounded shadow-sm">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="fw-bold text-white m-0">Instrutores Contratados</h2>
+                <a href="cadastrar_instrutor.html" class="btn btn-boost">Novo Instrutor</a>
+            </div>
+            
+            <div class="table-responsive">
+                <table class="table table-dark table-hover border-secondary vertical-align-middle">
+                    <thead>
+                        <tr>
+                            <th>Nome Completo</th>
+                            <th>CPF</th>
+                            <th>E-mail</th>
+                            <th>Especialidade</th>
+                            <th>Turno</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    
+                        <tr>
+                            <td>Marcos Maromba Braga</td>
+                            <td>222.333.444-55</td>
+                            <td>marcos.maromba@email.com</td>
+                            <td>Musculação</td>
+                            <td><span class="badge bg-info text-dark">Manhã</span></td>
+                        </tr>
+                
+                        <tr>
+                            <td>Juliana Cross Reis</td>
+                            <td>555.666.777-88</td>
+                            <td>juliana.cross@email.com</td>
+                            <td>Crossfit</td>
+                            <td><span class="badge bg-warning text-dark">Tarde</span></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Rodrigo Cardio Santos</td>
+                            <td>888.999.000-11</td>
+                            <td>rodrigo.cardio@email.com</td>
+                            <td>Treinamento Funcional</td>
+                            <td><span class="badge bg-danger">Noite</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
